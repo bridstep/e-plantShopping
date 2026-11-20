@@ -1,0 +1,12 @@
+.navbar { display:flex; justify-content:space-between; align-items:center;
+  background:#2e7d32; color:#fff; padding:1rem 2rem; position:sticky; top:0; }
+.nav-links a { color:#fff; margin-left:1.5rem; text-decoration:none; }
+.cart-count { background:#fff; color:#2e7d32; border-radius:50%; padding:0 .5rem; font-weight:bold; }
+.product-grid, .cart { padding:1rem 2rem; }
+.cards { display:grid; grid-template-columns:repeat(auto-fill,minmax(180px,1fr)); gap:1rem; }
+.card { border:1px solid #ddd; border-radius:8px; padding:1rem; text-align:center; }
+.card img, .cart-item img { width:100%; max-width:120px; border-radius:8px; }
+.card button:disabled { background:#ccc; cursor:not-allowed; }
+.cart-item { display:flex; gap:1rem; border-bottom:1px solid #ddd; padding:1rem 0; }
+.qty { display:flex; align-items:center; gap:.75rem; }
+.cart-actions { display:flex; gap:1rem; margin-top:1.5rem; }
